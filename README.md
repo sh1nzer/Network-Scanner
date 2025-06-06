@@ -105,6 +105,3 @@ network-scanner/
 -   **Network Restrictions**: Some networks may block ICMP or ARP requests.
 -   **Privileges**: Running the tool requires elevated privileges.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
