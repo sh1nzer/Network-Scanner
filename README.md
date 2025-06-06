@@ -1,30 +1,36 @@
 # Network Scanner
 
-A command-line tool for analyzing hosts on a network using various scanning techniques including ICMP echo requests, TCP port scanning, and ARP scanning. This tool is designed for network administrators and security professionals to assess network configurations and identify potential vulnerabilities.
+A command-line tool built by **Shaurya Singh** as a personal project for analyzing hosts on a network using various scanning techniques such as ICMP echo requests, TCP port scanning, and ARP scanning. This tool is created with the intention to help network administrators, cybersecurity students, and IT professionals assess network configurations and discover potential vulnerabilities.
 
-## Features
+---
 
--   **ICMP Echo Request (Ping) Scanning**: Quickly check the availability of hosts.
--   **TCP Port Scanning**: Identify open ports and services running on a host.
--   **ARP Network Scanning**: Discover devices on a local network.
--   **Configurable Scan Types and Timeouts**: Customize scans to suit your needs.
--   **Support for Port Ranges**: Scan specific ports or entire ranges.
--   **Detailed Scan Results Output**: Get comprehensive information about each scan.
+## 🚀 Features
 
-## Requirements
+- 🔍 **ICMP Echo Request (Ping) Scanning**: Check host availability.
+- 🔐 **TCP Port Scanning**: Detect open ports and discover running services.
+- 🌐 **ARP Network Scanning**: Identify live hosts on a local subnet.
+- ⚙️ **Configurable Scan Options**: Choose scan type, timeout, and ports.
+- 🎯 **Support for Port Ranges**: Specify exact ports or scan entire ranges.
+- 📋 **Detailed Output**: Get clean, informative scan results in your terminal.
 
--   **Python 3.6 or higher**: Ensure you have the correct version of Python installed.
--   **Scapy 2.5.0 or higher**: Required for packet crafting and network interactions.
--   **Root/Administrator Privileges**: Necessary for raw socket operations.
+---
 
-## Installation
+## 📦 Requirements
+
+- **Python 3.6+**
+- **Scapy 2.5.0+**
+- **Administrator/Root Privileges** (required for raw socket operations)
+
+---
+
+## 🛠️ Installation
 
 1. **Clone the Repository**:
 
 ```bash
 git clone https://github.com/yourusername/network-scanner.git
 cd network-scanner
-```
+
 
 2. **Install Dependencies**:
 
